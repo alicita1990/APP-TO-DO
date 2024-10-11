@@ -1,8 +1,11 @@
-# React + Vite
+# Mi React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación creada con **React** y desplegada en **GitHub Pages**.
 
-Currently, two official plugins are available:
+## Instrucciones de  uso
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*La app comienza a funcionar en Home, para llegar al organizador de tareas debes registrarte y luego iniciar sesión.
+al cerrar la sesión llegas a home otra vez.
+
+
+
