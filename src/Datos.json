@@ -1,0 +1,78 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Juan Pérez",
+        "email": "juan.perez@example.com",
+        "contraseña": "hashed_password_1",
+        "rol": "admin"
+      },
+      {
+        "id": 2,
+        "nombre": "María López",
+        "email": "maria.lopez@example.com",
+        "contraseña": "hashed_password_2",
+        "rol": "usuario"
+      },
+      {
+        "id": 3,
+        "nombre": "Carlos García",
+        "email": "carlos.garcia@example.com",
+        "contraseña": "hashed_password_3",
+        "rol": "usuario"
+      }
+    ],
+    "proyectos": [
+      {
+        "id": 1,
+        "nombre": "Proyecto Alpha",
+        "descripcion": "Descripción del Proyecto Alpha",
+        "fecha_inicio": "2024-10-01",
+        "fecha_finalizacion": "2024-12-01",
+        "usuario_id": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Proyecto Beta",
+        "descripcion": "Descripción del Proyecto Beta",
+        "fecha_inicio": "2024-10-05",
+        "fecha_finalizacion": "2024-11-30",
+        "usuario_id": 2
+      },
+      {
+        "id": 3,
+        "nombre": "Proyecto Gamma",
+        "descripcion": "Descripción del Proyecto Gamma",
+        "fecha_inicio": "2024-10-10",
+        "fecha_finalizacion": "2024-12-15",
+        "usuario_id": 3
+      }
+    ],
+    "tareas": [
+      {
+        "id": 1,
+        "nombre": "Tarea 1",
+        "descripcion": "Llamar a clientes ",
+        "estado": "pendiente",
+        "proyecto_id": 1,
+        "asignada_a": 2
+      },
+      {
+        "id": 2,
+        "nombre": "Tarea 2",
+        "descripcion": "Actualizar excel Ferias y Expos",
+        "estado": "en progreso",
+        "proyecto_id": 2,
+        "asignada_a": 3
+      },
+      {
+        "id": 3,
+        "nombre": "Tarea 3",
+        "descripcion": "Enviar credenciales a clientes nuevos",
+        "estado": "completada",
+        "proyecto_id": 3,
+        "asignada_a": 1
+      }
+    ]
+  }
+  
